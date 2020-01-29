@@ -46,7 +46,7 @@ outputPath <- args$outputPath
 prefix <- args$prefix
 nCores <- args$nCores
 
-setwd(outputPath)
+## setwd(outputPath)
 
 cat("Load simCounts File\n")
 if (grepl(".tsv",simCountsFile)) {
